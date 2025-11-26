@@ -23,3 +23,8 @@
     cursor: pointer;
     font-size: 1.2rem;
 }
+
+.cardProducto a{
+    text-decoration: none;
+    color: white;
+}
