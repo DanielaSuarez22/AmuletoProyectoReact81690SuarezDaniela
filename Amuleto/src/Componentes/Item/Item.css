@@ -1,0 +1,25 @@
+.cardProducto {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    width: 20rem;
+    padding: 1rem;
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem;
+    display: flex;
+}
+
+.cardProducto img {
+    width: 150px;
+    object-fit: contain;
+    border-radius: 8px;
+}
+.cardProducto button {
+    background-color: #d54242;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 1.2rem;
+}
