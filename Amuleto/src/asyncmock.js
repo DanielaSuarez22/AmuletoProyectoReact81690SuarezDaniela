@@ -20,5 +20,15 @@ export const getproductos = () => {
         setTimeout(() => { 
             resolve(misproductos);
         },2000);
+
     });
-}                   
+}       
+
+export const getUnProducto = (id) => {
+    return new Promise (resolve => {
+        setTimeout(() => {
+            const producto = misproductos.find (item => item.id == id)
+            resolve (producto)
+        }, 2000)
+    })
+}
